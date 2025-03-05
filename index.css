@@ -10,10 +10,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Para los títulos */
+/* Para los títulos 
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
 }
+*/
+
 
 
 /* index.css */
@@ -28,6 +30,7 @@ h1, h2, h3 {
     border-bottom: 1px solid #ddd;
     position: relative;
     overflow: visible; /* Permite que la imagen sobresalga */
+    
 }
 
 .new-navbar .logo {
@@ -39,8 +42,8 @@ h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #fa352f;
-    padding: 5px;
-    padding-left: 100px;
+    padding: 1%;
+    padding-left: 1%;
    
 }
 
@@ -70,9 +73,9 @@ h1, h2, h3 {
 }
 
 /* Estilos específicos para el botón de iniciar sesión */
-.new-navbar .nav-items .login-button {
+.login-button {
     background-color: #fa352f;
-    color: #fff;
+    color: #fafafa;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -80,7 +83,7 @@ h1, h2, h3 {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.new-navbar .nav-items .login-button:hover {
+.login-button:hover {
     background-color: #fff;
     color: #fa352f;
     border: 1px solid #fa352f;
@@ -89,11 +92,43 @@ h1, h2, h3 {
 .logo img {
     max-height: 80px;
     width: auto;
-    position: absolute;
-    top: -10px; /*Ajusta para que salga del contenedor */ 
-    left: 50%;
-    transform: translateX(-640px);
+
 }
+
+
+#caja{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    align-content: center;
+}
+
+#caja-texto{
+    width: 95%;
+    height: auto;
+}
+
+.box div h1{
+    padding-top: 1%;
+    margin: 1%;
+} 
+
+.box div h2{
+    padding-top: 3%;
+    margin: 1%;
+} 
+
+.fecha-limite{
+    color: #fa352f;
+    font-weight: bold;
+}
+
+
+.oferta-academica {
+    list-style-type:circle; /* Cambia el tipo de viñeta (disc, circle, square, etc.) */
+    padding-left: 5%;
+  }
 
 
   

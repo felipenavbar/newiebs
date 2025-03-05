@@ -1,28 +1,196 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barra de Navegación</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
+
 <body>
     <header>
+
         <nav class="new-navbar">
             <div class="logo">
                 <img src="https://colsantander.edu.co/img/logos/iebs.png" alt="Logo del Colegio">
             </div>
-            <h1 class="navbar-title">Institución Educativa Barrio Santander</h1>
-            <ul class="nav-items">
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Institucional</a></li>
-                <li><a href="#">Informes</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#" class="login-button">Iniciar Sesión</a></li>
-            </ul>
+            <h1 class="navbar-title">INSTITUCIÓN EDUCATIVA BARRIO SANTANDER</h1>
+            </div>
+
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <!-- Menú desplegable "Nosotros" -->
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Sobre nosotros</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#">Gobierno Escolar</a>
+                            <a class="navbar-item" href="#">Gestión Directiva</a>
+                            <a class="navbar-item" href="#">Reseña historica</a>
+                            <a class="navbar-item" href="#">Misión y Visión</a>
+                            <a class="navbar-item" href="#">Mega 2030</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Institucional</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#">SIE vigente 2024</a>
+                            <a class="navbar-item" href="#">Formato de excusas por inasistencia para estudiantes</a>
+                            <a class="navbar-item" href="#">Manual de convivencia</a>
+                            <a class="navbar-item" href="#">Planes de área</a>
+                            <a class="navbar-item" href="#">PEI</a>
+                            <a class="navbar-item" href="#">Proyecto de alimentación Escolar PAE</a>
+                            <a class="navbar-item" href="#">Proyectos pedagógicos</a>
+                            <a class="navbar-item" href="#">Talleres de apoyo</a>
+                            <a class="navbar-item" href="#">Información de interés público</a>
+                            <a class="navbar-item" href="#">Autoevaluación institucional</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Informes</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#">Estados Financieros</a>
+                            <a class="navbar-item" href="#">Ejecución presupuestal</a>
+                            <a class="navbar-item" href="#">Fondos de servicio educativo</a>
+                            <a class="navbar-item" href="#">Rendición de cuentas</a>
+                            <a class="navbar-item" href="#">Resultados de votaciones</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Contáctenos</a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#">Escíbenos</a>
+                            <a class="navbar-item" href="#">Llamanos</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="navbar-end">
+                    <a id="login-button" class="navbar-item " href="#">Iniciar Sesión</a>
+                </div>
+
+            </div>
         </nav>
+
+
+        <div id="caja" class="box">
+            <div id="caja-texto">
+                <h1 class="title is-1">Matrículas Abiertas 2025</h1>
+                <h2 class="subtitle">
+                    La rectoría de la Institución Educativa Barrio Santander,
+                    informa que a partir del día <strong> 23 de agosto de 2024</strong>,
+                    se inician las inscripciones para estudiantes nuevos
+                    que deseen cursar sus estudios en el año 2025,desde preescolar hasta grado once.
+                </h2>
+                    <br>
+                    <div>
+                        <h3  class="fecha-limite">Fecha Limite para inscripciones este año:</h3>
+                         <h4>20 de dicimbre 2024</h4> 
+                    </div>
+                   
+                    <br>
+                    <h1 class="title is-2">Oferta académica</h1>
+                    <ul class="oferta-academica">
+                        <li>Preescolar</li>
+                        <li>Bachillerato académico (desde primero hasta once)</li>
+                        <li>Media técnica en Programación de Software</li>
+                        <li>Media técnica en Internet de las Cosas (IOT)</li>
+                        <li>Ciclos propedeuticos en la jornada nocturna (CLEI) </li>
+                    </ul>
+                    <br>
+               
+                <h2 class="subtitle">
+                    Si está Interesado, ponemos a su disposición los siguientes canales: 
+                    <br>
+                    <ol>
+                    <li>Personalmente, en la secretaría de la institución
+                        en el horario: lunes a jueves de 8.00 a.m. a 3.00 p.m.
+                        ¿Cómo LLegar? <!--Agregar boton-->
+                    </li>
+                    <li>
+                        Vía telefónica: 3046297359 <!--Agregar boton-->
+                    </li>    
+                     <li>
+                        Por correo electrónico: inscripciones2025@colsantander.edu.co <!--Agregar boton-->
+                     </li>
+                    
+                    </ol>
+                    
+                </h2>
+
+          
+
+            </div>
+            <figure class="image is-256x256">
+                <img src="images/foto_portada_editada.png" />
+            </figure>
+
+        </div>
+
+        <a href="#" class="button is-primary is-rounded floating-button">
+            <span class="icon">
+                <i class="fas fa-headset"></i>
+            </span>
+            <span>¿Necesitas ayuda?</span>
+        </a>
+        
+        <footer class="footer">
+            <div class="grid">
+                <div class="cell"><img src="https://www.mineducacion.gov.co/1780/channels-977_logo_MEN.png" alt="Logo del ministerio de educación nacional de colombia"></div>
+                <div class="cell">Cell 2</div>
+                <div class="cell">Cell 3</div>
+                <div class="cell">Cell 4</div>
+                <div class="cell">Cell 5</div>
+                <div class="cell">Cell 6</div>
+                
+              </div>
+
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Powered By</strong><a href="https://jgthms.com"> Felipe Navas</a>.
+                   
+                </p>
+            </div>
+        </footer>
+
+
+        <!-- Script para activar el menú móvil -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const burger = document.querySelector('.navbar-burger');
+                const menu = document.querySelector('#navbarMenu');
+
+                burger.addEventListener('click', () => {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            });
+        </script>
+
+
+
+        </div>
+
+
+        <!-- Script para activar el menú móvil -->
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const burger = document.querySelector('.navbar-burger');
+                const menu = document.querySelector('#navbarMenu');
+
+                burger.addEventListener('click', () => {
+                    burger.classList.toggle('is-active');
+                    menu.classList.toggle('is-active');
+                });
+            });
+        </script>
+
     </header>
 </body>
-</html>
 
+</html>
