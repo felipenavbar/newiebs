@@ -52,5 +52,5 @@ Bienvenido al repositorio de la página web del colegio. Este proyecto tiene com
 Este proyecto está bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
 
 ## 📞 Contacto
-Para cualquier consulta o sugerencia, puedes contactarnos en [correo@colegio.edu] o visitar nuestra página web [www.colegio.edu](https://www.colegio.edu).
+Para cualquier consulta o sugerencia, puedes contactarnos en felipenavbar@colsantander.edu.co
 
