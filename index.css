@@ -7,7 +7,45 @@
 
 /* Para el cuerpo del texto */
 body {
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-principal {
+    width: 100%;
+    max-width: 1920px; /* Máximo para 24 pulgadas */
+    min-width: 1366px; /* Mínimo para 14 pulgadas */
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Contenido interno se ajusta proporcionalmente */
+.contenido {
+    width: 90%; /* Escala dentro del contenedor */
+    max-width: 1600px; /* Limita el contenido en pantallas grandes */
+    margin: 0 auto;
+}
+
+/* Media query para fijar el diseño en 14 pulgadas */
+@media (max-width: 1366px) {
+    .contenedor-principal {
+        width: 1366px; /* Fija el ancho en 14 pulgadas */
+        overflow-x: auto; /* Scroll horizontal si es necesario */
+    }
+}
+
+
+
+
+.contenedor-principal {
+    width: 100%;
+    max-width: 1920px; /* Aproximado para pantallas de 24 pulgadas a 1080p */
+    min-width: 1366px; /* Aproximado para pantallas de 14 pulgadas a 1366x768 */
+    margin: 0 auto;
 }
 
 /* Para los títulos 
@@ -15,6 +53,31 @@ h1, h2, h3 {
     font-family: 'Merriweather', serif;
 }
 */
+
+
+#image-carousel .splide__slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px; /* Adjust this value as needed */
+}
+  
+
+  
+
+.custom-hero {
+    background: url('images/franco.jpg') no-repeat;
+    background-size: contain;
+    height: 100vh;
+  }
+  
+.programas{
+
+
+    width: 50%;
+    height: auto;
+}
+
 
 .aliados {
     display: flex;
